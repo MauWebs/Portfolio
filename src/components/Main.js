@@ -145,7 +145,7 @@ function Main() {
 
       <section className="tarjeta_formulario">
 
-        <form className="formulario" method="POST" data-netlify="true" onSubmit="submit" name="contact" netlify>
+        <form className="formulario" method="POST" data-netlify="true" onSubmit="submit">
 
           <h3>Enviá tus datos para poder contactarme</h3>
 
