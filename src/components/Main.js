@@ -49,7 +49,7 @@ function Main() {
           en todos los proyectos en los que
           trabaje utilicé estos para mostrar mis conocimientos y poner en práctica lo aprendido</h4>
 
-        <a href={CV} className='CV' target='_blank' rel='noreferrer'>🡺 Descargar Curriculum 🡸</a>
+        <a href={CV} className='CV' target='_blank' rel='noreferrer'>⇨ Descargar Curriculum ⇦</a>
 
         <div className="separador_blanco_2"></div>
 
