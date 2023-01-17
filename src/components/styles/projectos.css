@@ -74,13 +74,14 @@
 @media screen and (max-width: 767px) {
 
     .proyectos {
-        height: 71rem;
+        height: 83rem;
     }
 
     .proyecto {
         margin: 0%;
         margin-top: 3rem;
-        width: 50rem;
+        width: 53rem;
+        height: 18rem;
     }
 
 }
