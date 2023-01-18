@@ -145,15 +145,17 @@ function Main() {
 
       <section className="tarjeta_formulario">
 
-        <form className="formulario" method="POST" data-netlify="true" onSubmit="submit">
+        <form name="contact" action="/contact" className="formulario" method="POST" data-netlify="true" onSubmit="submit">
 
           <h3>Enviá tus datos para poder contactarme</h3>
 
-          <input id="name" type="text" className="name" placeholder="Nombre o empresa" />
+          <input type="hidden" name="form-name" value="contact" />
 
-          <input id="email" type="email" className="email" placeholder="Email" />
+          <input required id="name" name="name" type="text" className="name" placeholder="Nombre o empresa" />
 
-          <textarea className="mensaje" id="message" placeholder="Mensaje"></textarea>
+          <input required id="email" name="email" type="email" className="email" placeholder="Email" />
+
+          <textarea required className="mensaje" name="message" id="message" placeholder="Mensaje"></textarea>
 
           <button className="enviar" id="submit" type="submit">Enviar</button>
 
