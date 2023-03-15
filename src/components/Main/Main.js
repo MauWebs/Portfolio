@@ -32,7 +32,7 @@ function Main() {
 
         <article className='info'>
 
-          <img src={Mau} alt="Mau" className='mau' />
+          <img loading="lazy" src={Mau} alt="Mau" className='mau' />
 
           <div>
 
@@ -72,17 +72,17 @@ function Main() {
             <div className='tarjetas'>
 
               <div className="individual">
-                <img src={Html} alt="html" className='html' />
+                <img loading="lazy" src={Html} alt="html" className='html' />
                 <p>html</p>
               </div>
 
               <div className="individual">
-                <img src={Css} alt="css" className='css' />
+                <img loading="lazy" src={Css} alt="css" className='css' />
                 <p>css</p>
               </div>
 
               <div className="individual">
-                <img src={Javascript} alt="javascript" className='javascript' />
+                <img loading="lazy" src={Javascript} alt="javascript" className='javascript' />
                 <p>javascript</p>
               </div>
 
@@ -95,12 +95,12 @@ function Main() {
             <div className='tarjetas'>
 
               <div className="individual">
-                <img src={React_img} alt="react" className='react' />
+                <img loading="lazy" src={React_img} alt="react" className='react' />
                 <p>react</p>
               </div>
 
               <div className="individual">
-                <img src={Bootstrap} alt="bootstrap" className='bootstrap' />
+                <img loading="lazy" src={Bootstrap} alt="bootstrap" className='bootstrap' />
                 <p>bootstrap</p>
               </div>
 
@@ -115,17 +115,17 @@ function Main() {
             <div className='tarjetas'>
 
               <div className="individual">
-                <img src={Python} alt="python" className='python' />
+                <img loading="lazy" src={Python} alt="python" className='python' />
                 <p>python</p>
               </div>
 
               <div className="individual">
-                <img src={Django} alt="django" className='django' />
+                <img loading="lazy" src={Django} alt="django" className='django' />
                 <p>django</p>
               </div>
 
               <div className="individual">
-                <img src={Postgresql} alt="postgresql" className='postgresql' />
+                <img loading="lazy" src={Postgresql} alt="postgresql" className='postgresql' />
                 <p>postgresql</p>
               </div>
 
@@ -140,12 +140,12 @@ function Main() {
             <div className='tarjetas'>
 
               <div className="individual">
-                <img src={Git} alt="git" className='git' />
+                <img loading="lazy" src={Git} alt="git" className='git' />
                 <p>git</p>
               </div>
 
               <div className="individual">
-                <img src={Terminal} alt="terminal" className='terminal' />
+                <img loading="lazy" src={Terminal} alt="terminal" className='terminal' />
                 <p>terminal</p>
               </div>
 

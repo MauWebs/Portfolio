@@ -24,7 +24,7 @@ function Proyectos() {
 
                 <article className="proyecto">
 
-                    <img src={Cafetería} alt="Pagina web de cafetería" />
+                    <img loading="lazy" src={Cafetería} alt="Pagina web de cafetería" />
 
                     <div className="info_proyecto">
 
@@ -40,7 +40,7 @@ function Proyectos() {
 
                 <div className="proyecto">
 
-                    <img src={Calculadora} alt="Calculadora" />
+                    <img loading="lazy" src={Calculadora} alt="Calculadora" />
 
                     <div className="info_proyecto">
 
@@ -57,7 +57,7 @@ function Proyectos() {
 
                 <article className="proyecto">
 
-                    <img src={Contador} alt="Contador de clics" />
+                    <img loading="lazy" src={Contador} alt="Contador de clics" />
 
                     <div className="info_proyecto">
 
@@ -73,7 +73,7 @@ function Proyectos() {
 
                 <article className="proyecto">
 
-                    <img src={API} alt="mi api propia" />
+                    <img loading="lazy" src={API} alt="mi api propia" />
 
                     <div className="info_proyecto">
 
