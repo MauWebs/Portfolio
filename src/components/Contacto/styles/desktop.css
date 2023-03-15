@@ -1,0 +1,12 @@
+article.tarjeta_contacto {
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 7.1rem;
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+    animation: opacity 2s;
+}

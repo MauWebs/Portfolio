@@ -1,0 +1,118 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer {
+    padding-block: 2rem;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: opacity 2s;
+}
+
+
+.company_info {
+    grid-column: 1/-1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.company_logo {
+    font-size: 2.5rem;
+    padding: 20px 0px;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company_info ul {
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 10px 0px;
+}
+
+ul.componentes li {
+    margin: 0 .8rem;
+    position: relative;
+    list-style: none;
+}
+
+ul li span {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex !important;
+    background: #2a2a2a;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px !important;
+    transition: .6s ease-out;
+}
+
+ul li:hover span {
+    transition: .6s ease-out;
+}
+
+ul li:nth-child(2):hover span {
+    background: #005338 !important;
+}
+
+ul li:nth-child(3):hover span {
+    background: #005338 !important;
+}
+
+ul li:nth-child(4):hover span {
+    background: #005338 !important;
+}
+
+ul li:nth-child(5):hover span {
+    background: #005338 !important;
+}
+
+
+@media screen and (min-width: 40em) {
+    .company_info {
+        grid-column: span 2;
+    }
+}

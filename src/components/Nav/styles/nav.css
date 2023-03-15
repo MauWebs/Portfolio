@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #f4f4f4;
+}
+
+a.link_link {
+  color: #f4f4f4;
+  text-align: center;
+  background-color: #00704a;
+  transition: .6s ease-out;
+}
+
+
+/* nav */
+
+.nav {
+  background-color: #00704a;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.nav li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover,
+.nav .menu-btn:hover {
+  transition: 2s;
+  color: rgba(255, 255, 255, 0.329);
+  transition: .6s;
+}
+
+.nav .logo {
+  color: #f4f4f4;
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: .5rem;
+}
+
+.link_nav {
+  font-size: 1.5rem;
+}
+
+/* menu */
+
+.nav .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.nav .menu_icon {
+  cursor: pointer;
+  display: block;
+  float: right;
+  padding: 30px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.nav .menu_icon .navicon {
+  background: #f4f4f4;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.nav .menu_icon .navicon:before,
+.nav .menu_icon .navicon:after {
+  background: #f4f4f4;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.nav .menu_icon .navicon:before {
+  top: 5px;
+}
+
+.nav .menu_icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.nav .menu_btn {
+  display: none;
+}
+
+.nav .menu_btn:checked~.menu {
+  max-height: 240px;
+}
+
+.nav .menu_btn:checked~.menu-icon .navicon {
+  background: transparent;
+}
+
+.nav .menu_btn:checked~.menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.nav .menu_btn:checked~.menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.nav .menu_btn:checked~.menu-icon:not(.steps) .navicon:before,
+.nav .menu_btn:checked~.menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+
+
+  .nav li {
+    float: left;
+  }
+
+  .nav li a {
+    padding: 20px 30px;
+  }
+
+  .nav .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .nav .menu_icon {
+    display: none;
+  }
+
+}
+
+@media (max-width: 48em) {
+
+  .nav li a:hover {
+    color: #f4f4f4;
+    background-color: #005c3d;
+    transition: .6s;
+  }
+
+}
+

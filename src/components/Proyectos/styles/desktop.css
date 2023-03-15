@@ -1,0 +1,77 @@
+/* ------------------------------proyectos------------------------------ */
+
+
+.proyectos {
+    margin-top: 8rem;
+    height: 80rem;
+}
+
+
+/* ------------------------------proyecto------------------------------ */
+
+
+.proyecto {
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    width: 60rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    animation: opacity 2s;
+}
+
+
+.proyecto img {
+    padding: 2rem;
+    height: 15rem;
+    border-radius: 50%;
+    border-radius: 200px 200px 200px 200px;
+}
+
+
+.info_proyecto a {
+    padding: .5rem;
+    margin: auto;
+    margin-top: 1rem;
+    color: rgb(14, 14, 14);
+    transition: .6s ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info_proyecto h2 {
+    cursor: default;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+
+.titulo {
+    cursor: default;
+    text-align: center;
+}
+
+.info_proyecto p {
+    cursor: default;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0% 2rem;
+}
+
+
+.proyecto:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.link_proyecto:hover {
+    color: rgb(14, 14, 14, .5);
+    transition: .6s;
+}
