@@ -26,7 +26,7 @@ article.info div p {
 
 img.mau {
     height: 430px;
-    animation: opacity 5s;
+    animation: opacity 2s;
 }
 
 
@@ -35,7 +35,7 @@ img.mau {
 
 h2.developer {
     cursor: default;
-    animation: opacity 8.5s;
+    animation: opacity 2s;
     font-size: 10rem;
     text-align: center;
 }
@@ -46,7 +46,7 @@ h2.developer {
 
 p.full {
     cursor: default;
-    animation: opacity 8.5s;
+    animation: opacity 2s;
     font-size: 5rem;
     text-align: center;
 }
@@ -65,7 +65,7 @@ p.full {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: opacity 8.5s;
+    animation: opacity 2s;
 }
 
 
