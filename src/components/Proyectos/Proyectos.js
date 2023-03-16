@@ -2,10 +2,10 @@ import React from "react";
 
 // ------------------------ image ------------------------ //
 
-import Cafetería from "../../img/proyectos/Cafetería.jpg";
+import Social from "../../img/proyectos/Social.jpeg"
 import Calculadora from "../../img/proyectos/Calculadora.jpg";
 import Contador from "../../img/proyectos/Contador.jpg";
-import API from "../../img/proyectos/API.jpg"
+import Cafetería from "../../img/proyectos/Cafetería.jpg";
 
 // ------------------------ styles ------------------------ //
 
@@ -24,15 +24,15 @@ function Proyectos() {
 
                 <article className="proyecto">
 
-                    <img loading="lazy" src={Cafetería} alt="Pagina web de cafetería" />
+                    <img loading="lazy" src={Social} alt="mi api propia" />
 
                     <div className="info_proyecto">
 
-                        <h2 className="titulo">Cafetería</h2>
+                        <h2 className="titulo">Red social</h2>
 
-                        <p className="descripcion">Este es un proyecto que está creado con html y css puro, como un buen programador, una taza de café siempre viene bien para el código adelante </p>
+                        <p className="descripcion">Esta es una red social con registro de usuario, en la que use base de datos y construí la API con Django Rest y la consumí con React mediante peticiones (HTTP) con Redux</p>
 
-                        <a href="https://mau-webs-coffee-break.netlify.app/" rel="noreferrer" target="_blank" className="link_proyecto">Visitar</a>
+                        <a href="https://social-programmer-mau-webs.netlify.app/" rel="noreferrer" target="_blank" className="link_proyecto">Visitar</a>
 
                     </div>
 
@@ -63,7 +63,7 @@ function Proyectos() {
 
                         <h2 className="titulo">Contador de clics</h2>
 
-                        <p className="descripcion">El contador de clics es otro de mis proyectos con react <br /> Tiene como objetivo cuantificar la cantidad de clics del usuario que lo utilice </p>
+                        <p className="descripcion">Otro de mis proyectos con react <br /> Tiene como objetivo cuantificar la cantidad de clics del usuario que lo utilice </p>
 
                         <a href="https://mau-webs-click-counter.netlify.app/" rel="noreferrer" target="_blank" className="link_proyecto">Visitar</a>
 
@@ -73,15 +73,15 @@ function Proyectos() {
 
                 <article className="proyecto">
 
-                    <img loading="lazy" src={API} alt="mi api propia" />
+                    <img loading="lazy" src={Cafetería} alt="Pagina web de cafetería" />
 
                     <div className="info_proyecto">
 
-                        <h2 className="titulo">Mi propia API</h2>
+                        <h2 className="titulo">Cafetería</h2>
 
-                        <p className="descripcion"> Una api creada por mí, consumible para otros desarrolladores <br /> Este es un ejemplo que cree para mostrar mi conocimiento de base de datos </p>
+                        <p className="descripcion">Este es un proyecto que está creado con html y css puro, como buen programador, una taza de café siempre viene bien para llevar el código adelante</p>
 
-                        <a href="https://mauwebs-myapi.onrender.com/" rel="noreferrer" target="_blank" className="link_proyecto">Visitar</a>
+                        <a href="https://mau-webs-coffee-break.netlify.app/" rel="noreferrer" target="_blank" className="link_proyecto">Visitar</a>
 
                     </div>
 
